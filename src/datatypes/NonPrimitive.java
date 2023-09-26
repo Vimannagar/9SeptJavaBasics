@@ -58,6 +58,22 @@ public class NonPrimitive {
 		
 		
 		
+		System.out.println("*****************************************");
+		
+		System.out.println(20+2);//22
+		
+		System.out.println("20"+"2");//202
+		
+		System.out.println("20"+2);//202
+		
+		System.out.println("20"+2+2);//2022
+		
+		System.out.println("50"+true);//50true
+		
+		System.out.println(5+3+"53");//853
+		
+		
+		System.out.println("5"+'3');//53
 	}
 
 }
