@@ -10,6 +10,15 @@ public class Test {
 		
 		StaticMethod.addition();
 		
+//		Calling the non static method:
+		
+		NonStaticMethod var1 = new NonStaticMethod();
+		
+		var1.m1();
+		
+		var1.m2();
+		
+		
 		
 	}
 
