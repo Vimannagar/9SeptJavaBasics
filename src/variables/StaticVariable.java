@@ -10,6 +10,8 @@ public class StaticVariable {
 	
 	static int a = 50; 
 	
+	static int i = 10;
+	
 	
 	
 	public static void main(String[] args) {
@@ -21,6 +23,9 @@ public class StaticVariable {
 		a = 90;
 		
 		System.out.println(a);//90
+		
+		
+		System.out.println(i);
 		
 		
 		

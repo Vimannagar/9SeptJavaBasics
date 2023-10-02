@@ -12,6 +12,18 @@ public class Test {
 		
 		System.out.println(StaticVariable.a);//60
 		
+		System.out.println("*****************************");
+		
+		NonStaticVariable var = new NonStaticVariable();
+		
+		System.out.println(var.i);
+		
+		
+		
+		System.out.println(var.s);
+		
+		
+		
 	}
 
 }
