@@ -28,6 +28,26 @@ public class G {
 		
 		System.out.println(g1.j);//100
 		
+		System.out.println("******************************************");
+		
+		System.out.println(i);//50
+		
+		i = 90;
+		
+		System.out.println(i);//90
+		
+		System.out.println(g1.i);//90
+		
+		System.out.println(g2.i);//90
+		
+		g1.i = 120;
+		
+		System.out.println(g1.i);//120
+		
+		System.out.println(g2.i);//120
+		
+		System.out.println(i);//120
+		
 		
 		
 	}
