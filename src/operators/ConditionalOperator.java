@@ -64,6 +64,43 @@ public class ConditionalOperator {
 		
 		
 		
+		System.out.println("****************************************");
+		
+		int n = 56;
+		
+		int x = 96;
+		
+//		syntax for if - else
+		
+//		if(boolean_condition)
+//		{
+//			actions to be executed if boolean_condition is true
+//		}
+//		else
+//		{
+//			actions to be executed if boolean_condition is false
+//		}
+		
+		
+		if(n>=x)
+		{
+		System.out.println("n is greater than x");	
+		}
+		else
+		{
+			System.out.println("n is smaller than x");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
