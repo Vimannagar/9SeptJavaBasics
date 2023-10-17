@@ -11,8 +11,20 @@ public class ForLoop {
 //				actions to be executed only if boolean_condition is true
 //		
 //		}
-//		
-//		
+		int i = 50;
+		int j = 60;
+		
+		
+	for(System.out.println("first statement"); i<j; System.out.println("third statement"))
+	{
+		System.out.println("Actions are executing");
+		
+		i = i+1;
+	}
+		
+		
+		
+		
 	}
 
 }
