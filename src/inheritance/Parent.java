@@ -1,6 +1,10 @@
 package inheritance;
 
-public class Parent  {
+public class Parent extends GrandParent  {
+	
+	static String s = "abc";
+	
+	int i = 20;
 	
 	public void home()
 	{

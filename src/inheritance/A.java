@@ -1,6 +1,8 @@
 package inheritance;
 
 public class A {
+	String ps1 = "Pune";
+	
 	
 	public void m1()
 	{

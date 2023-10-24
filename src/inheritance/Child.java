@@ -19,5 +19,12 @@ public class Child extends Parent
 		
 		c.bike();
 		
+		System.out.println(c.i);
+		
+		System.out.println(s);
+		
+		c.farm();// farm method from Grandparent
+		
+		
 	}
 }
