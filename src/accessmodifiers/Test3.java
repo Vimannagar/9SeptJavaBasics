@@ -1,6 +1,6 @@
 package accessmodifiers;
 
- final class Test3 {
+  class Test3 {
 	
 	
 	public static void main(String[] args) {

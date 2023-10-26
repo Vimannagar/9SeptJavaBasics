@@ -10,6 +10,21 @@ public class AccessTestWithinPackage {
 		
 		Test3 t3 = new Test3(); // public class
 		
+		MT.m1();// public method
+		
+		MT.m2();// default method
+		
+		MT mt = new MT();
+		
+//		mt.m3();// Private m3 method from MT class
+		
+		
+		A a = new A();
+		
+		a.m1();
+		
+		
+		A.m2();
 	}
 	
 	
