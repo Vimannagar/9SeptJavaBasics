@@ -29,7 +29,11 @@ public class AccessTestOutsidePackage {
 		
 //		a.m1();This is protected hence it is not accessible out side the package if we dont use child class reference variable and call it inside child class.
 		
+		System.out.println(MT.i);// public variable from accessmodifier - MT class
 		
+//		System.out.println(MT.s);// s is default inside MT class hence it will not be accessible outside the package
+		
+//		System.out.println(a.i);// i is protected inside the A class hence it will not be accessible outside the package using parent class reference variable it will only be accessible using child class reference variable only
 		
 		
 		

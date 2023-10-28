@@ -2,7 +2,7 @@ package accessmodifiers;
 
  public class A {
 	
-	
+	protected int i = 90;
 	
 	protected void m1()
 	{

@@ -17,6 +17,9 @@ public class B extends A {
 		
 		A.m2();
 		
+//		System.out.println(b.i); i  is protected variable hence it will be accesible throughout the same package but outside the package it will be on the basis of child class reference variable using child class object only
+		
+		
 		
 		
 	}

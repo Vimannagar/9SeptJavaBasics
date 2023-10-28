@@ -2,6 +2,16 @@ package polymorphism;
 
 public class A {
 	
+	public A()
+	{
+		System.out.println("0 argument constructor");
+	}
+	
+	public A(int i)
+	{
+		System.out.println("1 argument constructor");
+	}
+	
 	public void m1()
 	{
 		System.out.println("Method with 0 argument");
@@ -37,6 +47,10 @@ public class A {
 		return 50;
 	}
 	
+	 int m1(int i, boolean b, String s)
+	{
+		return 50;
+	}
 	
 	public static void main(String[] args) {
 		

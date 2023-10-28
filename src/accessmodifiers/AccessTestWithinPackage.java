@@ -25,6 +25,14 @@ public class AccessTestWithinPackage {
 		
 		
 		A.m2();
+		
+		System.out.println(MT.s);// default variable getting accessed inside the same package
+		
+//		System.out.println(mt.b);as b is private inside MT class hence it will not be accessible outside the class
+		
+		System.out.println(a.i);// as i is protected hence it will be accessible through out the package and also using child class reference variable for outside the package
+		
+		
 	}
 	
 	
