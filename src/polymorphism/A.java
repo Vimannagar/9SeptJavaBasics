@@ -59,5 +59,7 @@ public class A {
 		a.m1(90);
 		
 		m1("Daniel");
+		
+		
 	}
 }

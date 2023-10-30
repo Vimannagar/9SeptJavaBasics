@@ -2,6 +2,13 @@ package polymorphism;
 
 public class B {
 	
+	int i = 50;
+	public static void m5()
+	{
+		System.out.println("m5 static method from B class");
+	}
+	
+	
 	public void m1()
 	{
 		System.out.println("B class m1 method");
