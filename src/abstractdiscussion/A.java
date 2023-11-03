@@ -1,6 +1,13 @@
 package abstractdiscussion;
 
-public abstract class A {
+public abstract  class A {
+	
+	public int i = 50;
+	
+	public A()
+	{
+		System.out.println("zero argument constructor");
+	}
 	
 	public void f1()
 	{
@@ -14,7 +21,7 @@ public abstract class A {
 	
 	public static void f7()
 	{
-		
+		System.out.println("Static method non-abstract from A Class");
 	}
 	
 	public abstract void f3();
