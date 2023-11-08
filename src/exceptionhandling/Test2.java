@@ -1,7 +1,7 @@
 package exceptionhandling;
 
-public class Test {
-
+public class Test2 {
+	
 	public static void main(String[] args) {
 
 		System.out.println("first line");
@@ -20,7 +20,7 @@ public class Test {
 			
 		} 
 		
-		catch (ArithmeticException e) {
+		catch (NullPointerException e) {
 			System.out.println("Exception arrived hence executing the catch block");
 			k = 2;
 
