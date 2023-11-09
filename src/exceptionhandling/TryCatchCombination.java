@@ -24,6 +24,14 @@ public class TryCatchCombination {
 			System.out.println("String index out of bound");
 		}
 		
+		catch (RuntimeException e) {
+			
+			System.out.println("Run time Exception catch block executing");
+			
+		}
+	
+		
+		
 		
 		
 		
