@@ -1,6 +1,7 @@
 package arraydisc;
 
-public class DefiningArray {
+public class Test {
+	
 	
 	public static void main(String[] args) {
 //		syntax to define array:
@@ -13,21 +14,9 @@ public class DefiningArray {
 		i[2] = 2;
 		i[3] = 96;
 		i[4] = 48;
+		i[5] = 96;// this line will throw the exception as array size is 5 which is defined hence we cannot provide more than 5
 		
 		System.out.println(i[0]);//50
-		
-	int sizeOfArray = i.length;
-	System.out.println(sizeOfArray);
-	
-//	Assignment: WAP to print all the elements present inside the array using for loop
-		
-	for(int a=0; a<sizeOfArray; a++)
-	{
-		System.out.println(i[a]);
-	}
-	
-	
-	
 	}
 
 }
