@@ -14,8 +14,16 @@ public class StringClassConcept {
 	
 	System.out.println(a); // abc--> immutable
 	
+	System.out.println("********************************************");
+//	string buffer
 	
 	
+	StringBuffer sb = new StringBuffer("abc");
+	
+	sb.append("software");
+	
+	
+	System.out.println(sb);// abcsoftware - mutable
 	
 	
 	}
