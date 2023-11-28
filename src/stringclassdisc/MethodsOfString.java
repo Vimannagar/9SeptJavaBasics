@@ -215,7 +215,66 @@ char s34 = 'o';
 
 boolean isnumber = Character.isDigit(s34);
 
-System.out.println(isnumber);
+System.out.println(isnumber);// false
+
+//18. isAlphabetic(char c)
+
+boolean isalpha = Character.isAlphabetic('a');
+
+System.out.println(isalpha);//true
+
+//Assignment : WAP to remove the alphabet from the string- Hell24oW2or3ld
+
+//Assignment: WAP to remove the digits from the String - Hell24oW2or3ld
+
+//19 replaceAll(String regex)
+
+
+String s35 = "Spring";
+
+String s36 = s35.replaceAll("[A-Z]", "a");
+
+System.out.println(s36);//apring
+
+String s37 = s35.replaceAll("[A-D]", "ab");
+
+System.out.println(s37);//Spring
+
+String s38 = "Houston";
+
+String s39 = s38.replaceAll("[a-z]", "q");
+
+System.out.println(s39);//Hqqqqqq
+
+String s40= "Spring";
+
+
+String s41 = s40.replaceAll("[A-Za-k]", "!");
+
+System.out.println(s41);//!pr!n!
+
+
+String s42 = "ta#&m!pa";
+
+String s43 = s42.replaceAll("[^a-z]", "");
+
+System.out.println(s43);//tampa
+
+String s44 = "A2c4c!ent$ure%";
+
+
+String s45 = s44.replaceAll("[^A-Za-z0-9]", "");
+
+System.out.println(s45);//A2c4centure
+
+// WAP to remove the unnecessary space from the String- This    is  String
+
+
+
+
+
+
+
 
 
 
