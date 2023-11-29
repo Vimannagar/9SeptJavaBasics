@@ -22,6 +22,40 @@ public class PrimitiveCasting {
 	long y = (long)s;
 	
 	System.out.println(y);//90
+	
+	
+	
+//	Explicit casting
+	
+	int i = 10;
+	
+	byte bb = (byte)i;
+	
+	System.out.println(bb);//10
+	
+	
+	int k = 129;
+	
+	byte cc = (byte)k;
+	
+	System.out.println(cc);//-127
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		
 	}
 
