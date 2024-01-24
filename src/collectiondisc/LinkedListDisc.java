@@ -1,12 +1,12 @@
 package collectiondisc;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class ArrayListDisc2 {
-
+public class LinkedListDisc {
+	
 	public static void main(String[] args) {
 
-		ArrayList<String> al = new ArrayList<String>();
+		LinkedList<String> al = new LinkedList<String>();
 
 		al.add("Pune");// to add the data inside the collection
 		al.add("Mumbai");
@@ -23,7 +23,7 @@ public class ArrayListDisc2 {
 
 		System.out.println(al);//[Pune, Mumbai, Bengaluru]
 		
-		ArrayList<String> al2 = new ArrayList<String>();
+		LinkedList<String> al2 = new LinkedList<String>();
 		
 		al2.addAll(al);// to add a particular collection inside another collection
 		
@@ -35,7 +35,7 @@ public class ArrayListDisc2 {
 		
 		System.out.println(valueAtThirdIndex);
 		
-		ArrayList<String> al3 = new ArrayList<String>();
+		LinkedList<String> al3 = new LinkedList<String>();
 		
 		al3.add("Satara");
 		al3.add("Baramati");
